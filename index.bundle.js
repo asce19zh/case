@@ -164,7 +164,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _get
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//ES6  https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/export\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n\t\r\n\tdate(){\r\n\t\tconsole.log(\"20191203\");\r\n\t}\t\r\n\t\r\n});\n\n//# sourceURL=webpack:///./src/printLog.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n//ES6  https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/export\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n\t\r\n\tdate(){\r\n\t\tvar today = new Date();\r\n\t\tconsole.log(today.getFullYear() + \"/\" + parseInt(today.getMonth()+1) + \"/\" + today.getDate());\r\n\t}\t\r\n\t\r\n});\n\n//# sourceURL=webpack:///./src/printLog.js?");
 
 /***/ }),
 
